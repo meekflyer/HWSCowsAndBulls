@@ -13,7 +13,8 @@ struct HWSCowsAndBullsApp: App {
         WindowGroup {
             ContentView()
         }
-        
         .windowResizability(.contentSize)
+
+        Settings(content: SettingsView.init)
     }
 }
